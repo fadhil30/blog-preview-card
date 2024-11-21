@@ -1,0 +1,56 @@
+body {
+  background-color: #f4d04e;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  width: 384px;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  margin: auto;
+  overflow: visible;
+  position: relative;
+  flex-direction: column;
+}
+
+.card img {
+  padding: 24px;
+  display: block;
+}
+
+.content {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.learning-section {
+  display: block;
+  color: black;
+  background-color: #f4d04e;
+  width: 82px;
+  height: 29px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 4px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.author img {
+  margin: 0%;
+}
+
+.author p {
+  margin: 0;
+}
+
+p,
+h1,
+div {
+  font-family: "Figtree";
+}
